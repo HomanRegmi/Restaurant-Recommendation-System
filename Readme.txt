@@ -11,14 +11,13 @@ TF-IDF was used to give the weight of the informative words. Average stars were 
 
 I picked three cities of North American continent- Toronto, Las Vegas and Phoenix as these were the top three cities with highest restaurant numbers in the dataset.
 
-
 In my recommendation system, beside choosing city, food categories and average stars, you can also match the review with your own preferred review.
 
 Steps to follow:
 
-1. The necessary JSON files are located in the 'raw data' folder.
+1. The necessary csv files for the recommendation system are located in the 'processed data' folder.
 
-2. Run the 'Restaurant_recommendations with EDA.ipynb' script in the codes folder for EDA and observe 			how the models function. This will also store the processed data to the 'processed data' folder.
+2. Run the 'Restaurant_recommendations with EDA.ipynb' script in the codes folder for EDA and observe how the models function. This will also store the processed data to the 'processed data' folder.
 
 3. The top three cities were picked. If you want to add a city, enter its name in 'Restaurant_recommendations using EDA.ipynb' and execute the entire code. As a result, the processed data now includes the city you specified.
 
